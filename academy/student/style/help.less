@@ -1,0 +1,36 @@
+@max768: ~"(max-width: 768px)";
+
+#help-content {
+	#title {
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+	.instruction-video-timecode {
+		padding-left: 25px;
+		li {
+			cursor: pointer;
+			font-size: 14px;
+			padding-bottom: 1%;
+		}
+	}
+}
+// #vimeo-full-instruction-video {
+// 	margin-left: 4%;
+// }
+
+@media @max768 {
+	#vimeo-full-instruction-video {
+		// margin-left: 0% !important;
+		margin-bottom: 5% !important;
+	}
+
+	#help-content {
+		.instruction-video-timecode {
+			li {
+				padding-bottom: 3% !important;
+				line-height: 18px !important;
+				font-size: 13px !important;
+			}
+		}
+	}
+}

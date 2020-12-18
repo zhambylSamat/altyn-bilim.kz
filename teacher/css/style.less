@@ -1,0 +1,117 @@
+a{
+	cursor:pointer;
+}
+.mark{
+	.outer {
+	  	position: relative;
+	  	.inner {
+		  	overflow-x: scroll;
+		  	overflow-y: visible;
+		  	width: 80%; 
+		  	margin-left: 20%;
+		  	.mark-table{
+				table-layout: fixed;
+				width: 100%;
+				*width: 100%;	
+				td,th {
+					height: 55px;
+					vertical-align: top;
+					width: 140px;
+					line-height: 20px;
+					vertical-align: middle
+				}
+				.fix {
+					border:2px solid lightgray;
+					font-weight: bold;
+					margin-top:-1px;
+				  	position: absolute;
+				  	*position: relative;
+				  	/*margin-left: -10%;
+				  	width: 10%;*/
+				}
+				.fix-left{
+					left:0;
+					/*margin-left: -20%;*/
+				  	width: 20%;
+				}
+				.fix-right{
+					right:0;
+					/*margin-left: -100%;*/
+				  	width: 0%;
+				  	border:none;
+				  	margin: 0;
+				  	padding: 0;
+				}
+			}
+			.not-fix{
+				padding-top: 0 !important;
+				padding-bottom: 0 !important;
+			}
+		}
+	}
+	.month{
+		padding:2% 1%;
+	}
+	.big-attendance-sign{
+		border:1px solid;
+		border-radius: 3px;
+		transition:0.3s;
+		cursor:pointer;
+		padding:10px;
+	}
+	.plus-attendance{
+		display: none;
+		color:#3C763D;
+		border-color:#3C763D;
+	}
+	.minus-attendance{
+		/*display: none;*/
+		color:#A94442;
+		border-color:#A94442;
+	}
+	.plus-attendance:hover{
+		border-color:#83FF85;
+		color:#83FF85;
+		transition:0.3s;
+	}
+	.minus-attendance:hover{
+		border-color:#FF6764;
+		color:#FF6764;
+		transition:0.3s;
+	}
+}
+#ui-datepicker-div{
+	background-color: black;
+	/*border-radius: 10px;*/
+	.ui-corner-all{
+		padding:1%;
+		cursor: pointer;
+		padding:4px;
+	}
+	.ui-datepicker-title{
+		color:white;
+	}
+	th{
+		color:white;
+	}
+	th,td{
+		padding:5px;
+	}
+}
+.pre-news{
+	font-size:20px; 
+	line-height: 10px; 
+	padding:30px; 
+	margin-top:10px; 
+	background-color: rgba(0,0,0,0); 
+	font-family: "Times New Roman", Times, serif; 
+	background-color: #FEFAD7;
+}
+#lll{
+	width: 100%; 
+	height: 100%; 
+	position: fixed; 
+	top:0; 
+	background-color: rgba(0,0,0,0.4); 
+	z-index: 10000;
+}

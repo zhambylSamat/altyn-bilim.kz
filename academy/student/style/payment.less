@@ -1,0 +1,37 @@
+@max768: ~"(max-width: 768px)";
+
+#payment-total-amount-info {
+	font-size: 16px;
+	font-weight: bold;
+	#payment-total-amount {
+		font-size: 18px;
+		color: green;
+	}
+}
+
+.payment-subtitle {
+	margin-top: 0.5%;
+	margin-bottom: 0;
+}
+
+.open-payment-instruction-modal {
+	margin-top: 0.5%;
+}
+
+@media @max768 {
+	.open-payment-instruction-modal {
+		margin-top: 5% !important;
+	}
+
+	.payment-subtitle {
+		margin-top: 3% !important;
+	}
+
+	.payment-form {
+		margin-top: 5% !important;
+	}
+
+	#no-payment-exist-content {
+		margin-top: 6% !important;
+	}
+}

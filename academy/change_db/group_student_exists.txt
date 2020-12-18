@@ -1,0 +1,265 @@
+
+many
+Array ( [group_id] => 11 [group_name] => 3 ағым - Туынды [topic_id] => 34 [title] => Модуль 7 - Туынды. Алғашқы функция. Интеграл )
+
+Array ( [student_id] => 73 [topic_id] => 34 [subtopic_id] => 165 [subtopic_title] => Рационал функцияның туындысы )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 87 [topic_id] => 86 [subtopic_id] => 510 [subtopic_title] => Гидростатика. Гидродинамика )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 9 [group_name] => 1 ағым - Тригонометрия [topic_id] => 23 [title] => Модуль 4 - Тригонометрия )
+
+Array ( [student_id] => 30 [topic_id] => 26 [subtopic_id] => 116 [subtopic_title] => Тригонометриялық теңсіздіктер жүйесі )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 30 [topic_id] => 86 [subtopic_id] => 510 [subtopic_title] => Гидростатика. Гидродинамика )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 12 [group_name] => 1 ағым - Планиметрия [topic_id] => 44 [title] => Модуль 1 - Планиметрия )
+
+Array ( [student_id] => 57 [topic_id] => 44 [subtopic_id] => 266 [subtopic_title] => Үшбұрыш және оның негізгі элементтері )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 9 [group_name] => 1 ағым - Тригонометрия [topic_id] => 23 [title] => Модуль 4 - Тригонометрия )
+
+Array ( [student_id] => 30 [topic_id] => 26 [subtopic_id] => 116 [subtopic_title] => Тригонометриялық теңсіздіктер жүйесі )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 30 [topic_id] => 86 [subtopic_id] => 510 [subtopic_title] => Гидростатика. Гидродинамика )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 18 [group_name] => 2 ағым - Стереометрия [topic_id] => 49 [title] => Модуль 3 - Стереометрия )
+
+Array ( [student_id] => 91 [topic_id] => 50 [subtopic_id] => 305 [subtopic_title] => Цилиндр )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 18 [group_name] => 2 ағым - Стереометрия [topic_id] => 49 [title] => Модуль 3 - Стереометрия )
+
+Array ( [student_id] => 32 [topic_id] => 50 [subtopic_id] => 305 [subtopic_title] => Цилиндр )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 10 [group_name] => 2 ағым - Логарифм [topic_id] => 30 [title] => Модуль 6 - Логарифм )
+
+Array ( [student_id] => 94 [topic_id] => 32 [subtopic_id] => 153 [subtopic_title] => Логарифмдік теңсіздіктер )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 14 [group_name] => 2 ағым - Молекулалық физика [topic_id] => 87 [title] => Модуль 2 - Молекулалық физика )
+
+Array ( [student_id] => 96 [topic_id] => 87 [subtopic_id] => 514 [subtopic_title] => Молекулалық физика бастамасы )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 30 [topic_id] => 86 [subtopic_id] => 510 [subtopic_title] => Гидростатика. Гидродинамика )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 15 [group_name] => 3 ағым - Электр өрісі [topic_id] => 88 [title] => Модуль 3 - Электр өрісі. Тұрақты ток )
+
+Array ( [student_id] => 96 [topic_id] => 88 [subtopic_id] => 528 [subtopic_title] => Электр өрісі. Кулон заңы )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 9 [group_name] => 1 ағым - Тригонометрия [topic_id] => 23 [title] => Модуль 4 - Тригонометрия )
+
+Array ( [student_id] => 30 [topic_id] => 26 [subtopic_id] => 116 [subtopic_title] => Тригонометриялық теңсіздіктер жүйесі )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 30 [topic_id] => 86 [subtopic_id] => 510 [subtopic_title] => Гидростатика. Гидродинамика )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 76 [topic_id] => 85 [subtopic_id] => 504 [subtopic_title] => Механикалық тербелістер )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 30 [topic_id] => 86 [subtopic_id] => 510 [subtopic_title] => Гидростатика. Гидродинамика )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 12 [group_name] => 1 ағым - Планиметрия [topic_id] => 44 [title] => Модуль 1 - Планиметрия )
+
+Array ( [student_id] => 54 [topic_id] => 45 [subtopic_id] => 275 [subtopic_title] => Параллелограм )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 16 [group_name] => 4 ағым - Магнит өрісі [topic_id] => 90 [title] => Модуль 4 - Магнит өрісі. Электромагниттік тербелістер мен толқындар )
+
+Array ( [student_id] => 54 [topic_id] => 91 [subtopic_id] => 551 [subtopic_title] => Еркін электромагниттік тербелістер )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 30 [topic_id] => 86 [subtopic_id] => 510 [subtopic_title] => Гидростатика. Гидродинамика )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 16 [group_name] => 4 ағым - Магнит өрісі [topic_id] => 90 [title] => Модуль 4 - Магнит өрісі. Электромагниттік тербелістер мен толқындар )
+
+Array ( [student_id] => 66 [topic_id] => 91 [subtopic_id] => 551 [subtopic_title] => Еркін электромагниттік тербелістер )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 39 [topic_id] => 84 [subtopic_id] => 494 [subtopic_title] => Импульс. Импульстің сақталу за )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 39 [topic_id] => 84 [subtopic_id] => 494 [subtopic_title] => Импульс. Импульстің сақталу за )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 39 [topic_id] => 84 [subtopic_id] => 494 [subtopic_title] => Импульс. Импульстің сақталу за )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 12 [group_name] => 1 ағым - Планиметрия [topic_id] => 44 [title] => Модуль 1 - Планиметрия )
+
+Array ( [student_id] => 59 [topic_id] => 46 [subtopic_id] => 284 [subtopic_title] => Шеңбер және оның элементтері )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 11 [group_name] => 3 ағым - Туынды [topic_id] => 34 [title] => Модуль 7 - Туынды. Алғашқы функция. Интеграл )
+
+Array ( [student_id] => 73 [topic_id] => 34 [subtopic_id] => 165 [subtopic_title] => Рационал функцияның туындысы )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 18 [group_name] => 2 ағым - Стереометрия [topic_id] => 49 [title] => Модуль 3 - Стереометрия )
+
+Array ( [student_id] => 73 [topic_id] => 50 [subtopic_id] => 305 [subtopic_title] => Цилиндр )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 15 [group_name] => 3 ағым - Электр өрісі [topic_id] => 88 [title] => Модуль 3 - Электр өрісі. Тұрақты ток )
+
+Array ( [student_id] => 96 [topic_id] => 88 [subtopic_id] => 528 [subtopic_title] => Электр өрісі. Кулон заңы )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 15 [group_name] => 3 ағым - Электр өрісі [topic_id] => 88 [title] => Модуль 3 - Электр өрісі. Тұрақты ток )
+
+Array ( [student_id] => 96 [topic_id] => 88 [subtopic_id] => 528 [subtopic_title] => Электр өрісі. Кулон заңы )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 30 [topic_id] => 86 [subtopic_id] => 510 [subtopic_title] => Гидростатика. Гидродинамика )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 14 [group_name] => 2 ағым - Молекулалық физика [topic_id] => 87 [title] => Модуль 2 - Молекулалық физика )
+
+Array ( [student_id] => 30 [topic_id] => 87 [subtopic_id] => 514 [subtopic_title] => Молекулалық физика бастамасы )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 104 [topic_id] => 85 [subtopic_id] => 504 [subtopic_title] => Механикалық тербелістер )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 11 [group_name] => 3 ағым - Туынды [topic_id] => 34 [title] => Модуль 7 - Туынды. Алғашқы функция. Интеграл )
+
+Array ( [student_id] => 106 [topic_id] => 35 [subtopic_id] => 180 [subtopic_title] => Алғашқы функция 1 )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 11 [group_name] => 3 ағым - Туынды [topic_id] => 34 [title] => Модуль 7 - Туынды. Алғашқы функция. Интеграл )
+
+Array ( [student_id] => 106 [topic_id] => 35 [subtopic_id] => 180 [subtopic_title] => Алғашқы функция 1 )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 12 [group_name] => 1 ағым - Планиметрия [topic_id] => 44 [title] => Модуль 1 - Планиметрия )
+
+Array ( [student_id] => 106 [topic_id] => 44 [subtopic_id] => 266 [subtopic_title] => Үшбұрыш және оның негізгі элементтері )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 30 [topic_id] => 86 [subtopic_id] => 510 [subtopic_title] => Гидростатика. Гидродинамика )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 11 [group_name] => 3 ағым - Туынды [topic_id] => 34 [title] => Модуль 7 - Туынды. Алғашқы функция. Интеграл )
+
+Array ( [student_id] => 68 [topic_id] => 35 [subtopic_id] => 180 [subtopic_title] => Алғашқы функция 1 )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 11 [group_name] => 3 ағым - Туынды [topic_id] => 34 [title] => Модуль 7 - Туынды. Алғашқы функция. Интеграл )
+
+Array ( [student_id] => 68 [topic_id] => 35 [subtopic_id] => 180 [subtopic_title] => Алғашқы функция 1 )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 12 [group_name] => 1 ағым - Планиметрия [topic_id] => 44 [title] => Модуль 1 - Планиметрия )
+
+Array ( [student_id] => 68 [topic_id] => 45 [subtopic_id] => 275 [subtopic_title] => Параллелограм )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 13 [group_name] => 1 ағым - Кинематика [topic_id] => 82 [title] => Модуль 1 - Механика. Гидростатика )
+
+Array ( [student_id] => 61 [topic_id] => 85 [subtopic_id] => 504 [subtopic_title] => Механикалық тербелістер )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 14 [group_name] => 2 ағым - Молекулалық физика [topic_id] => 87 [title] => Модуль 2 - Молекулалық физика )
+
+Array ( [student_id] => 30 [topic_id] => 87 [subtopic_id] => 514 [subtopic_title] => Молекулалық физика бастамасы )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 10 [group_name] => 2 ағым - Логарифм [topic_id] => 30 [title] => Модуль 6 - Логарифм )
+
+Array ( [student_id] => 39 [topic_id] => 30 [subtopic_id] => 141 [subtopic_title] => Логарифм мәнін анықтамасы бойынша анықтау )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 12 [group_name] => 1 ағым - Планиметрия [topic_id] => 44 [title] => Модуль 1 - Планиметрия )
+
+Array ( [student_id] => 47 [topic_id] => 44 [subtopic_id] => 266 [subtopic_title] => Үшбұрыш және оның негізгі элементтері )
+
+---------------------------------------------------------
+many
+Array ( [group_id] => 15 [group_name] => 3 ағым - Электр өрісі [topic_id] => 88 [title] => Модуль 3 - Электр өрісі. Тұрақты ток )
+
+Array ( [student_id] => 114 [topic_id] => 88 [subtopic_id] => 528 [subtopic_title] => Электр өрісі. Кулон заңы )
+
+---------------------------------------------------------

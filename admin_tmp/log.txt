@@ -1,0 +1,35 @@
+-------------------------------------------------START-----------------------------------------------------------
+Date: Wednesday 23rd of August 2017 12:08:17 PM
+From: controller1
+Query: INSERT INTO group_student (group_student_num, group_info_num, student_num) VALUES(?, ?, ?)
+Key: group_student_num=>?	|	Value: [GS599d1bd13232b4.32866205] 
+Key: group_info_num=>?	|	Value: GI599140ad882859.70165903
+Key: student_num=>?	|	Value: [US5985c03ababcf003612666] 
+-------------------------------------------------STOP------------------------------------------------------------
+-------------------------------------------------START-----------------------------------------------------------
+Date: Wednesday 23rd of August 2017 12:08:56 PM
+From: controller1
+Query: INSERT INTO group_student (group_student_num, group_info_num, student_num) VALUES(?, ?, ?)
+Key: group_student_num=>?	|	Value: [GS599d1bf8221c73.34186872] 
+Key: group_info_num=>?	|	Value: GI599140f185f2b1.01415981
+Key: student_num=>?	|	Value: [US5985c12ec0a62122183433] 
+-------------------------------------------------STOP------------------------------------------------------------
+-------------------------------------------------START-----------------------------------------------------------
+Date: Wednesday 23rd of August 2017 12:14:30 PM
+From: controller1
+Query: DELETE FROM group_student WHERE student_num = :student_num
+Key: :student_num	|	Value: US59954575398231.88559102
+-------------------------------------------------STOP------------------------------------------------------------
+-------------------------------------------------START-----------------------------------------------------------
+Date: Wednesday 23rd of August 2017 12:14:30 PM
+From: controller1
+Query: DELETE sp, stp FROM student_permission sp JOIN student_test_permission stp ON sp.student_permission_num = stp.student_permission_num WHERE sp.student_num = :student_num
+Key: :student_num	|	Value: US59954575398231.88559102
+-------------------------------------------------STOP------------------------------------------------------------
+-------------------------------------------------START-----------------------------------------------------------
+Date: Wednesday 23rd of August 2017 12:38:46 PM
+From: controller1
+Query: SELECT * FROM admin WHERE username = :username AND password = :password
+Key: signIn	|	Value: signed_in
+Key: IP	|	Value: 2.73.190.109
+-------------------------------------------------STOP------------------------------------------------------------

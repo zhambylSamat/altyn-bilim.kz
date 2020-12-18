@@ -1,0 +1,10 @@
+---------------------------------------START-------------------------------------------------
+Date: Tuesday 22nd of August 2017 04:44:56 PM
+From: controllerAjaxA
+Query: INSERT INTO student (student_num, name, surname, gender, password, username, password_type) VALUES(:student_num, :name, :surname, :gender, :password, :username, 'default')
+Key: :student_num    |    Value: US599c0b28b17e10.60702858
+Key: :name    |    Value: a
+Key: :surname    |    Value: a
+Key: :gender    |    Value: 1
+Key: :username    |    Value: a.a
+---------------------------------------STOP--------------------------------------------------

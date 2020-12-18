@@ -1,0 +1,30 @@
+.question-gallery {
+  width: 100%;
+  float: left;
+}
+.question-gallery img {
+  width: 100%;
+  height: auto;
+}
+.question-gallery figure {
+  /*display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;*/
+  box-shadow: 0 0 10px gray;
+  margin: 1%;
+}
+
+.question-gallery figcaption {
+  display: none;
+}
+
+.question-primary {
+	width: 60%;
+	display: block;
+	margin-bottom: 2% !important;
+}
+.question-secondary {
+	width: 15%;
+	display: inline-block;
+}

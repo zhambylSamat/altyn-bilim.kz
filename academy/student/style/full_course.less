@@ -1,0 +1,55 @@
+@max768: ~"(max-width: 768px)";
+
+#full-course-content {
+	.full-course-subject {
+		color: green;
+		font-size: 18px;
+	}
+	.full-course-price {
+		.old-price {
+			font-size: 16px;
+			color: darkred;
+			text-decoration: line-through;
+			margin: 0;
+		}
+		.new-price {
+			color: darkblue;
+			font-size: 19px;
+		}
+	}
+	#full-course-info {
+		font-size: 15px;
+		#full-course-subinfo {
+			font-weight: bold;
+			color: green;
+		}
+	}
+
+	@media @max768 {
+		.full-course-info-table {
+			td {
+				padding-bottom: 5%;
+			}
+		}
+		.full-course-subject {
+			font-size: 16px !important;
+		}
+		.full-course-price {
+			text-align: center;
+			a {
+				font-size: 14px;
+			}
+			.old-price {
+				font-size: 13px;
+			}
+			.new-price {
+				font-size: 15px;
+			}
+		}
+		#full-course-info {
+			text-align: center;
+			display: block;
+			font-size: 14px;
+		}
+	}
+}

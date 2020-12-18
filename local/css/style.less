@@ -1,0 +1,107 @@
+.box-test{
+	display: none;
+	.question{
+		/*border-bottom:1px solid lightgray;*/
+		.question_txt{
+			padding:5px 10px;
+			font-family: arial;
+			font-size:130%;
+			border:1px solid #efefef;
+			border-radius: 5px;
+			margin:3px;
+		}
+		.question_img{
+			border:2px dashed gray;
+			border-radius: 10px;
+			margin-bottom:10px;
+			background-color: rgba(0,0,0,0);
+			transition: 0.3s;
+			img{
+				max-height: 200px;
+				height: 100%;
+				width: auto;
+			}
+		}
+		.question_img:hover{
+			cursor:zoom-in;
+			background-color: rgba(0,0,0,0.5);
+			transition: 0.3s;
+			border:1px solid black;
+		}
+	}
+	.answer{
+		border-top:1px solid lightgray;
+		padding:10px 20px;
+		.answer_img{
+			background-color: rgba(0,0,0,0);
+			transition: 0.3s;
+			border:1px dashed gray;
+			border-radius: 10px;
+			img{
+				max-height: 100px;
+				height: 100%;
+			}
+		}
+		.answer_img:hover{
+			transition: 0.3s;
+			border:1px solid black;
+			cursor: zoom-in;
+			background-color: rgba(0,0,0,0.5);
+		}
+	}
+}
+.img-section{
+	display: none;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	overflow-y: scroll;
+	.img-big-box{
+		margin-top:10%;
+		padding-bottom:10%;
+		border-radius: 5px;
+		span{
+			color:white;
+			padding:0.5%;
+			border:1px solid white;
+			border-radius: 100px;
+			vertical-align: top;
+			/*transform:rotate(-45deg);*/
+			transition:0.3s;
+		}
+		span:hover{
+			cursor:pointer;
+			transform: rotate(90deg);
+			transition:0.3s;
+		}
+		img{
+			display:inline-block;
+			max-height: 100%;
+			border:2px solid white;
+			background-color: lightgray;
+			border-radius: 5px;
+			padding:1%;
+		}
+	}
+}
+.footer_navigation{
+	position: absolute;
+	top:0;
+	right:0;
+}
+.text-underline{
+	text-decoration: underline;
+}
+.pre-news{
+	font-size:20px; 
+	line-height: 10px; 
+	padding:30px; 
+	margin-top:10px; 
+	background-color: rgba(0,0,0,0); 
+	font-family: "Times New Roman", Times, serif; 
+	background-color: #FEFAD7;
+}

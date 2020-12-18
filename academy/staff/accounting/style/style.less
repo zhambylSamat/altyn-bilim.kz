@@ -1,0 +1,84 @@
+@max768: ~"(max-width: 768px)";
+
+.add-amount-form {
+	display: none;
+}
+.category-action-list {
+	width: 100%;
+	label {
+		white-space: normal;
+	}
+}
+.subcategory-action-list {
+	display: none;
+	width: 100%;
+	label {
+		white-space: normal;
+	}
+}
+.account-table {
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 0;
+	width: calc(~'100% - 53px');
+	.begin-of-day-balance-column {
+		text-align: center;
+		background-color: #7ECAE9;
+		@media @max768 {
+			display: none;
+		}
+	}
+	.coming-column {
+		text-align: center;
+		background-color: #AFF2C5;
+	}
+	.expenditure-column {
+		text-align: center;
+		background-color: #F79696;
+	}
+	.end-of-day-balance-column {
+		text-align: center;
+		background-color: #EAAB90;
+	}
+
+	.show-comings {
+		cursor: pointer;
+	}
+	.show-expenditures {
+		cursor: pointer;
+	}
+	.column-fixed {
+		background-color: white;
+		position: absolute;
+		z-index: 100;
+		left: 0;
+		width: 53px;
+	}
+	.column-flow {
+		position: relative;
+		left: 51px;
+	}
+	.footer-gap-td {
+		@media @max768 {
+			display: none;
+		}
+	}
+}
+
+.edit-amount {
+	.amount-input {
+		display: none;
+	}
+	.amount-txt {
+		font-weight: bold;
+	}
+	.cancel-money-transfer {
+		display: inline-block;
+	}
+	.amount-action-1 {
+		display: inline-block;
+	}
+	.amount-action-2 {
+		display: none;
+	}
+}

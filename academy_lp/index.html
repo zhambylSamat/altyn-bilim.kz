@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Altyn Bilim Онлайн Академиясы</title>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<link rel="icon" href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/static/img/icon.ico">
+
+	<link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static/bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet/less" type="text/css" href="static/css/landing.less">
+	<link rel="stylesheet/less" type="text/css" href="static/test/test.less">
+
+	<link rel="stylesheet" type="text/css" href="static/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="static/slick/slick-theme.css"/>
+</head>
+<body>
+	<div id='main'>
+		<div id='nav'>
+			<div class='container-fluid' id='nav-container'>
+				<div class='row'>
+					<div class='container'>
+						<div class='row'>
+							<nav role='navigation'>
+								<div class='col-md-4 hidden-sm hidden-xs'>
+									<div class='nav-container'>
+										<p class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+											Курстар 
+											<span class="caret"></span>
+										</p>
+										<ul class="dropdown-menu">
+											<li><a class='course-btn' data-type='math'>Математика</a></li>
+											<li><a class='course-btn' data-type='phys'>Физика</a></li>
+											<li><a class='course-btn' data-type='matsau'>Математикалық сауаттылық</a></li>
+											<li><a class='course-btn' data-type='geom'>Геометрия</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class='col-md-4 col-sm-6 col-xs-10'>
+									<div class='nav-container'>
+										<center>
+											<span class='nav-middle' id='nav-middle-img'><img src="static/img/content_img/logo-600.jpg"></span>
+											<span class='nav-middle' id='nav-middle-text'>Altyn Bilim</span>
+										</center>
+									</div>
+								</div>
+								<div class='col-md-4 col-sm-6 hidden-xs'>
+									<div class='nav-container'>
+										<div class='pull-right' id='nav-right'>
+											<span role='button' class='sign-up-btn' data-type='form'>Академияға жазылу</span>
+											<span>Порталға кіру</span>
+											<span class="dropdown-toggle hidden-lg hidden-md hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+												Курстар 
+											</span>
+											<ul class="dropdown-menu">
+												<li><a class='course-btn' data-type='math'>Математика</a></li>
+												<li><a class='course-btn' data-type='phys'>Физика</a></li>
+												<li><a class='course-btn' data-type='matsau'>Математикалық сауаттылық</a></li>
+												<li><a class='course-btn' data-type='geom'>Геометрия</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class='hidden-lg hidden-md hidden-sm col-xs-2'>
+									<div class='nav-container'>
+										<button type="button" class="navbar-toggle collapsed" data-target="#nav_bar_1" data-toggle="collapse" aria-expanded="false">
+									        <span class="sr-only">Toggle navigation</span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+								      	</button>
+									</div>
+								</div>
+								<div class='hidden-lg hidden-md hidden-sm'>
+									<div class='collapse navbar-collapse' id='nav_bar_1'>
+							      		<ul class="nav navbar-nav" style='border-bottom:2px solid lightgray;'>
+							      			<li><a class='sign-up-btn' data-type='form'>Академияға жазылу</a></li>
+											<li><a>Порталға кіру</a></li>
+										</ul>
+										<ul class='nav navbar-nav navbar-right'>
+											<li><a class='cousre-btn' data-type='math'>Математика</a></li>
+											<li><a class='course-btn' data-type='phys'>Физика</a></li>
+											<li><a class='course-btn' data-type='matsau'>Математикалық сауаттылық</a></li>
+											<li><a class='course-btn' data-type='geom'>Геометрия</a></li>
+										</ul>
+							      	</div>
+							    </div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id='header'>
+			<div class='container-fluid'>
+				<div class='row'>
+					<div id='header'>
+						<div id='left-img' class='col-md-6 col-sm-12 col-xs-12'>
+							<img class='hidden-sm hidden-xs' src="static/test/img/anomaly/2.jpg">
+							<center class='hidden-lg hidden-md'><img src="static/test/img/anomaly/2.jpg"></center>
+						</div>
+						<div id='right-img' class='col-md-6 hidden-sm hidden-xs'>
+							<img class='pull-right' src="static/test/img/anomaly/1.jpg">
+						</div>
+						<div class='col-md-12 col-sm-12 col-xs-12' id='header-title'>
+							<center>
+								<div id='h'>
+									<p id='h-title'>ҰБТ-ға онлайн дайындалу академиясы</p>
+									<p id='h-subtitle'>Тез. Түсінікті. Сапалы.</p>
+									<button class='h-btn course-btn' id='btn-meet' data-type='content'>
+										Сабақтармен танысу
+									</button>
+									<br>
+									<button class='h-btn sign-up-btn' id='btn-register' data-type='form'>
+										Академияға жазылу
+									</button>
+								</div>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id='courses'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12 c-title'>
+						<img class='courses-list' src="static/test/img/math.jpg">
+						<div class='courses-list courses-list-toggle'>Математика <span class='glyphicon glyphicon-chevron-down hidden-lg hidden-md hidden-sm courses-list'></span><p>ҰБТ-ға дайындық</p></div>
+						<!-- <span class='pull-right glyphicon glyphicon-chevron-down hidden-lg hidden-md hidden-sm courses-list'></span> -->
+						<br>
+						<button class='hidden-xs sign-up-btn' data-type='form'>Курсқа жазылу</button>
+						<center><button class='hidden-lg hidden-md hidden-sm sign-up-btn' data-type='form'>Курсқа жазылу</button></center>
+					</div>
+					<div class='col-lg-8 col-md-8 col-sm-8 col-xs-12 c-subtitle'>
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic sign-up-btn' data-type='content'>Фундамент</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Өрнекті ықшамдау</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Теңдеулер</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Теңсіздіктер</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Бөлшектің бөлімін иррационалдықтан арылту</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Иррационал теңдеулер</p>
+						</div>
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic sign-up-btn' data-type='content'>Прогрессия</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Тригонометрия</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Модуль</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Бөлшек дәреже</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Көрсеткіштік теңдеулер мен теңсіздіктер</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Логарифм</p>
+						</div>
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic sign-up-btn' data-type='content'>Туынды</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Алғашқы функция. Интеграл</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Функция</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Мәселе есептер</p>
+							<p class='c-topic sign-up-btn' data-type='content'><b>Геометрия*</b></p>
+						</div>
+
+						<div class='col-sm-6 hidden-lg hidden-md hidden-xs'>
+							<p class='c-topic sign-up-btn' data-type='content'>Фундамент</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Өрнекті ықшамдау</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Теңдеулер</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Теңсіздіктер</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Бөлшектің бөлімін иррационалдықтан арылту</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Иррационал теңдеулер</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Прогрессия</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Тригонометрия</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Модуль</p>
+						</div>
+						<div class='col-sm-6 hidden-lg hidden-md hidden-xs'>
+							<p class='c-topic sign-up-btn' data-type='content'>Бөлшек дәреже</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Көрсеткіштік теңдеулер мен теңсіздіктер</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Логарифм</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Туынды</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Алғашқы функция. Интеграл</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Функция</p>
+							<p class='c-topic sign-up-btn' data-type='content'>Мәселе есептер</p>
+							<p class='c-topic sign-up-btn' data-type='content'><b>Геометрия*</b></p>
+						</div>
+
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Фундамент</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Өрнекті ықшамдау</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Теңдеулер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Теңсіздіктер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Бөлшектің бөлімін иррационалдықтан арылту</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Иррационал теңдеулер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Прогрессия</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Тригонометрия</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Модуль</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Бөлшек дәреже</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Көрсеткіштік теңдеулер мен теңсіздіктер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Логарифм</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Туынды</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Алғашқы функция. Интеграл</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Функция</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'>Мәселе есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic sign-up-btn' data-type='content'><b>Геометрия*</b></p></div>
+					</div>
+				</div>
+
+				<div class='row'>
+					<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12 c-title'>
+						<img class='courses-list' src="static/test/img/phys.jpg">
+						<div class='courses-list courses-list-toggle'>Физика <span class='glyphicon glyphicon-chevron-down hidden-lg hidden-md hidden-sm courses-list'></span><p>ҰБТ-ға дайындық</p></div>
+						<!-- <span class='pull-right glyphicon glyphicon-chevron-down hidden-lg hidden-md hidden-sm courses-list'></span> -->
+						<br>
+						<button class='hidden-xs'>Курсқа жазылу</button>
+						<center><button class='hidden-lg hidden-md hidden-sm'>Курсқа жазылу</button></center>
+					</div>
+					<div class='col-lg-8 col-md-8 col-sm-8 col-xs-12 c-subtitle'>
+
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic'>Кинематика</p>
+							<p class='c-topic'>Динамика</p>
+							<p class='c-topic'>Сақталу заңдары</p>
+							<p class='c-topic'>Механикалық тербелістер мен толқындар</p>
+							<p class='c-topic'>Гидростатика. Гидродинамика</p>
+						</div>
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic'>Молекулалық физика</p>
+							<p class='c-topic'>Электр өрісі</p>
+							<p class='c-topic'>Тұрақты ток</p>
+							<p class='c-topic'>Магнит өрісі</p>
+							<p class='c-topic'>Электромагниттік тербелістер мен толқындар</p>
+						</div>
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic'>Оптика</p>
+							<p class='c-topic'>Фотоэффект</p>
+							<p class='c-topic'>Ядролық физика</p>
+							<p class='c-topic'>Эйнштейннің салыстырмалылық теориясы</p>
+						</div>
+
+						<div class='col-sm-6 hidden-lg hidden-md hidden-xs'>
+							<p class='c-topic'>Кинематика</p>
+							<p class='c-topic'>Динамика</p>
+							<p class='c-topic'>Сақталу заңдары</p>
+							<p class='c-topic'>Механикалық тербелістер мен толқындар</p>
+							<p class='c-topic'>Гидростатика. Гидродинамика</p>
+							<p class='c-topic'>Молекулалық физика</p>
+							<p class='c-topic'>Электр өрісі</p>
+						</div>
+						<div class='col-sm-6 hidden-lg hidden-md hidden-xs'>
+							<p class='c-topic'>Тұрақты ток</p>
+							<p class='c-topic'>Магнит өрісі</p>
+							<p class='c-topic'>Электромагниттік тербелістер мен толқындар</p>
+							<p class='c-topic'>Оптика</p>
+							<p class='c-topic'>Фотоэффект</p>
+							<p class='c-topic'>Ядролық физика</p>
+							<p class='c-topic'>Эйнштейннің салыстырмалылық теориясы</p>
+						</div>
+
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Кинематика</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Динамика</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Сақталу заңдары</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Механикалық тербелістер мен толқындар</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Гидростатика. Гидродинамика</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Молекулалық физика</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Электр өрісі</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Тұрақты ток</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Магнит өрісі</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Электромагниттік тербелістер мен толқындар</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Оптика</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Фотоэффект</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Ядролық физика</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Эйнштейннің салыстырмалылық теориясы</p></div>
+					</div>
+				</div>
+
+				<div class='row'>
+					<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12 c-title'>
+						<img class='courses-list' src="static/test/img/matsau.jpg">
+						<div class='courses-list courses-list-toggle'>Матсауаттылық <span class='glyphicon glyphicon-chevron-down hidden-lg hidden-md hidden-sm courses-list'></span><p>ҰБТ-ға дайындық</p></div>
+						<!-- <span class='pull-right glyphicon glyphicon-chevron-down hidden-lg hidden-md hidden-sm courses-list'></span> -->
+						<br>
+						<button class='hidden-xs'>Курсқа жазылу</button>
+						<center><button class='hidden-lg hidden-md hidden-sm'>Курсқа жазылу</button></center>
+					</div>
+					<div class='col-lg-8 col-md-8 col-sm-8 col-xs-12 c-subtitle'>
+
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic'>Сандар теориясы 1</p>
+							<p class='c-topic'>Сандар теориясы 2</p>
+							<p class='c-topic'>Тура пропорционалдық. Кері пропорционалдық. Санды бөліктерге бөлу. Масштаб</p>
+							<p class='c-topic'>Пайызға арналған есептер</p>
+							<p class='c-topic'>Шамалардың өзгеруін процентпен көрсету</p>
+							<p class='c-topic'>Адам жасына және уақытқа байланысты есептер</p>
+						</div>
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic'>S=n(n-1), S=n(n-1)/2 формулаларына және кітап газет, журнал беттеріне арн</span>алған есептер</p>
+							<p class='c-topic'>Қозғалысқа арналған есептер</p>
+							<p class='c-topic'>Жұмысқа арналған есептер</p>
+							<p class='c-topic'>Концентрацияға арналған есептер</p>
+							<p class='c-topic'>Мәтіндік есептер</p>
+							<p class='c-topic'>Жиындардың қиылысуына арналған есептер</p>
+						</div>
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic'>Графиктермен және кестелермен берілген есептер</p>
+							<p class='c-topic'>Диаграммамен берілген есептер</p>
+							<p class='c-topic'>Геометриялық мағынадағы есептер</p>
+							<p class='c-topic'>Логикалық есептер</p>
+							<p class='c-topic'>Комбинаторика</p>
+							<p class='c-topic'>Ықтималдылық</p>
+						</div>
+
+						<div class='col-sm-6 hidden-lg hidden-md hidden-xs'>
+							<p class='c-topic'>Сандар теориясы 1</p>
+							<p class='c-topic'>Сандар теориясы 2</p>
+							<p class='c-topic'>Тура пропорционалдық. Кері пропорционалдық. Санды бөліктерге бөлу. Масштаб</p>
+							<p class='c-topic'>Пайызға арналған есептер</p>
+							<p class='c-topic'>Шамалардың өзгеруін процентпен көрсету</p>
+							<p class='c-topic'>Адам жасына және уақытқа байланысты есептер</p>
+							<p class='c-topic'>S=n(n-1), S=n(n-1)/2 формулаларына және кітап газет, журнал беттеріне арн</span>алған есептер</p>
+							<p class='c-topic'>Қозғалысқа арналған есептер</p>
+							<p class='c-topic'>Жұмысқа арналған есептер</p>
+						</div>
+						<div class='col-sm-6 hidden-lg hidden-md hidden-xs'>
+							<p class='c-topic'>Концентрацияға арналған есептер</p>
+							<p class='c-topic'>Мәтіндік есептер</p>
+							<p class='c-topic'>Жиындардың қиылысуына арналған есептер</p>
+							<p class='c-topic'>Графиктермен және кестелермен берілген есептер</p>
+							<p class='c-topic'>Диаграммамен берілген есептер</p>
+							<p class='c-topic'>Геометриялық мағынадағы есептер</p>
+							<p class='c-topic'>Логикалық есептер</p>
+							<p class='c-topic'>Комбинаторика</p>
+							<p class='c-topic'>Ықтималдылық</p>
+						</div>
+
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Сандар теориясы 1</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Сандар теориясы 2</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Тура пропорционалдық. Кері пропорционалдық. Санды бөліктерге бөлу. Масштаб</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Пайызға арналған есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Шамалардың өзгеруін процентпен көрсету</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Адам жасына және уақытқа байланысты есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>S=n(n-1), S=n(n-1)/2 формулаларына және кітап газет, журнал беттеріне арн</p>алған есептер</div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Қозғалысқа арналған есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Жұмысқа арналған есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Концентрацияға арналған есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Мәтіндік есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Жиындардың қиылысуына арналған есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Графиктермен және кестелермен берілген есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Диаграммамен берілген есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Геометриялық мағынадағы есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Логикалық есептер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Комбинаторика</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Ықтималдылық</p></div>
+					</div>
+				</div>
+
+				<div class='row'>
+					<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12 c-title'>
+						<img class='courses-list' src="static/test/img/geom.jpg">
+						<div class='courses-list courses-list-toggle'>Геометрия <span class='glyphicon glyphicon-chevron-down hidden-lg hidden-md hidden-sm courses-list'></span><p>ҰБТ-ға дайындық</p></div>
+						<!-- <span class='pull-right glyphicon glyphicon-chevron-down hidden-lg hidden-md hidden-sm courses-list'></span> -->
+						<br>
+						<button class='hidden-xs'>Курсқа жазылу</button>
+						<center><button class='hidden-lg hidden-md hidden-sm'>Курсқа жазылу</button></center>
+					</div>
+					<div class='col-lg-8 col-md-8 col-sm-8 col-xs-12 c-subtitle'>
+
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic'>Үшбұрыштар</p>
+							<p class='c-topic'>Төртбұрыштар</p>
+							<p class='c-topic'>Шеңбер</p>
+						</div>
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic'>Вектор</p>
+							<p class='c-topic'>Түзудің және шеңбердің теңдеуі</p>
+							<p class='c-topic'>Көпжақтар</p>
+						</div>
+						<div class='col-md-4 hidden-sm hidden-xs'>
+							<p class='c-topic'>Айналу денелері</p>
+							<p class='c-topic'>Денелер комбинациясы</p>
+							<p class='c-topic'>Жазықтыққа көлбеуленген фигуралар2</p>
+						</div>
+
+						<div class='col-sm-6 hidden-lg hidden-md hidden-xs'>
+							<p class='c-topic'>Үшбұрыштар</p>
+							<p class='c-topic'>Төртбұрыштар</p>
+							<p class='c-topic'>Шеңбер</p>
+							<p class='c-topic'>Вектор</p>
+							<p class='c-topic'>Түзудің және шеңбердің теңдеуі</p>
+						</div>
+						<div class='col-sm-6 hidden-lg hidden-md hidden-xs'>
+							<p class='c-topic'>Көпжақтар</p>
+							<p class='c-topic'>Айналу денелері</p>
+							<p class='c-topic'>Денелер комбинациясы</p>
+							<p class='c-topic'>Жазықтыққа көлбеуленген фигуралар2</p>
+						</div>
+
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Үшбұрыштар</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Төртбұрыштар</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Шеңбер</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Вектор</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Түзудің және шеңбердің теңдеуі</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Көпжақтар</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Айналу денелері</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Денелер комбинациясы</p></div>
+						<div class='col-xs-12 hidden-lg hidden-md hidden-sm'><p class='c-topic'>Жазықтыққа көлбеуленген фигуралар2</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id='description'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-4 col-sm-4 col-xs-12' id='d_title'>	
+						<center>
+							<div id='dt_content'>
+								<div id='price'>5000 тг/айына</div>
+								<span id='title'>*Алғашқы 3 сабақ тегін өтсең болады</span>
+							</div>
+						</center>
+					</div>
+					<div class='col-md-8 col-sm-8 col-xs-12'>
+						<table class='table d-txt'>
+							<tr>
+								<td><span class='glyphicon glyphicon-ok'></span></td>
+								<td class='d_text'>Күнделікті өзің таңдаған кез келген 3 тақырыпты өте аласың</td>
+							</tr>
+							<tr>
+								<td><span class='glyphicon glyphicon-ok'></span></td>
+								<td class='d_text'>
+									Әр тақырып түсіндіріледі <span class='glyphicon glyphicon-arrow-right'></span>
+									Өзіндік жұмысқа есептер беріледі <span class='glyphicon glyphicon-arrow-right'></span>
+									Сол есептердің шешу жолдары көрсетіледі
+								</td>
+							</tr>
+							<tr>
+								<td><span class='glyphicon glyphicon-ok'></span></td>
+								<td class='d_text'>Өз прогресіңді қадағалайсың</td>
+							</tr>
+							<tr>
+								<td><span class='glyphicon glyphicon-ok'></span></td>
+								<td class='d_text'>Сынақ тесттері беріледі және олардың шешу жолдары көрсетіледі</td>
+							</tr>
+							<tr>
+								<td><span class='glyphicon glyphicon-ok'></span></td>
+								<td class='d_text'>Геймификация: тақырыптарды өту барысында сыйлықтар, жеңілдіктер және статус беріледі</td>
+							</tr>
+							<tr>
+								<td><span class='glyphicon glyphicon-ok'></span></td>
+								<td class='d_text'>Периодты түрде тікелей эфир арқылы мұғаліммен байланыс</td>
+							</tr>
+							<tr>
+								<td><span class='glyphicon glyphicon-ok'></span></td>
+								<td class='d_text'>Whatsapp және Telegram группаларына қосамыз</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id='about_video'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-5 col-sm-6 col-xs-12'>
+						<div id='av_content'>
+							<div id='av_text'>
+								"<b>Altyn Bilim онлайн академиясы</b>" дегеніміз не және не үшін бізге қосылған дұрыс?
+							</div>
+							<button id='av_button'>
+								Мен академияға жазыламын
+							</button>
+						</div>
+					</div>
+					<div class='col-md-7 col-sm-6 col-xs-12' id='av_video'>
+						<div>
+							<iframe src="https://www.youtube.com/embed/5caBqt0dlAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id='inside_academy'>
+			<div class='container'>
+				<div class='row'>
+
+					<div class='col-md-12 col-sm-12 col-xs-12'>
+						<center>
+							<p id='ia_subtitle' class='text-uppercase'>AB Академия</p>
+							<p id='ia_title'>Онлайн Академияның ішінде не бар?</p>
+						</center>
+					</div>
+
+					<div class='col-md-4 col-sm-6 col-xs-12'>
+						<center>
+							<div class='ia_content'>
+								<p class='ia_tag'>Экшн-планы</p>
+								<div class='ia_action' id='ia-1'>
+									<video muted=""><source src="https://academy.geniusmarketing.me/videos/login/slide-3.mp4" type="video/webm"></video>
+								</div>
+								<p class='ia_description'>
+									Пошаговые планы с детальной проработкой каждого шага по реализации самых крутых инструментов для бизнеса, которые будут работать для Вас уже сегодня.
+								</p>
+								<a href="#" class='ia_link'>Получить доступ к экшн-планам <span class='glyphicon glyphicon-chevron-right'></span></a>
+							</div>
+						</center>
+					</div>
+
+					<div class='col-md-4 col-sm-6 col-xs-12'>
+						<center>
+							<div class='ia_content'>
+								<p class='ia_tag'>Вебинары</p>
+								<div class='ia_action' id='ia-2'>
+									<video muted=""><source src="https://academy.geniusmarketing.me/videos/login/slide-5.mp4" type="video/webm"></video>
+								</div>
+								<p class='ia_description'>
+									Доступ ко всем вебинарам, проведенным компанией GeniusMarketing, где раскрываются самые актуальные темы бизнеса и маркетинга.
+								</p>
+								<a href="#" class='ia_link'>Получить доступ к вебинарам <span class='glyphicon glyphicon-chevron-right'></span></a>
+							</div>
+						</center>
+					</div>
+
+					<div class='col-md-4 col-sm-6 col-xs-12'>
+						<center>
+							<div class='ia_content'>
+								<p class='ia_tag'>Мастер-классы</p>
+								<div class='ia_action' id='ia-3'>
+									<video muted=""><source src="https://academy.geniusmarketing.me/videos/joinmembership/joinmembership-3.webm" type="video/webm"></video>
+								</div>
+								<p class='ia_description'>
+									Эксклюзивные записи офлайн мастер-классов от лучших экспертов в своем деле, увидеть которые могут исключительно подписчики GM Академии.
+								</p>
+								<a href="#" class='ia_link'>Получить доступ к мастер-классам <span class='glyphicon glyphicon-chevron-right'></span></a>
+							</div>
+						</center>
+					</div>
+
+					<div class='col-md-4 col-sm-6 col-xs-12'>
+						<center>
+							<div class='ia_content'>
+								<p class='ia_tag'>Онлайн-трансляции</p>
+								<div class='ia_action' id='ia-4'>
+									<video muted=""><source src="https://academy.geniusmarketing.me/videos/joinmembership/joinmembership-4.webm" type="video/webm"></video>
+								</div>
+								<p class='ia_description'>
+									Живое онлайн-общение с основателем компании GeniusMarketing — Олесем Тимофеевым. Вы сможете лично задать вопрос и получить мгновенный ответ на него.
+								</p>
+								<a href="#" class='ia_link'>Получить доступ к трансляциям <span class='glyphicon glyphicon-chevron-right'></span></a>
+							</div>
+						</center>
+					</div>
+
+					<div class='col-md-4 col-sm-6 col-xs-12'>
+						<center>
+							<div class='ia_content'>
+								<p class='ia_tag'>Q&A-сессии</p>
+								<div class='ia_action' id='ia-5'>
+									<video muted=""><source src="https://academy.geniusmarketing.me/videos/joinmembership/joinmembership-5.webm" type="video/webm"></video>
+								</div>
+								<p class='ia_description'>
+									Мощные онлайн-вебинары с последующими сессиями "Вопрос/ответ", на которых Вы сможете задать самые животрепещущие вопросы спикеру.
+								</p>
+								<a href="#" class='ia_link'>Получить доступ к Q&A-сессиям <span class='glyphicon glyphicon-chevron-right'></span></a>
+							</div>
+						</center>
+					</div>
+
+					<div class='col-md-4 col-sm-6 col-xs-12'>
+						<center>
+							<div class='ia_content'>
+								<p class='ia_tag'>Закрытая Facebook-группа</p>
+								<div class='ia_action' id='ia-6'>
+									<video muted=""><source src="https://academy.geniusmarketing.me/videos/joinmembership/joinmembership-6.webm" type="video/webm"></video>
+								</div>
+								<p class='ia_description'>
+									Недоступное для широких масс сообщество, где успешные предприниматели делятся опытом, и Вы получаете возможность найти единомышленников и партнеров.
+								</p>
+								<a href="#" class='ia_link'>Получить доступ к закрытой группе <span class='glyphicon glyphicon-chevron-right'></span></a>
+							</div>
+						</center>
+					</div>
+
+				</div>
+			</div>	
+		</div>
+
+		<div id='advantages'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-4 col-sm-6 col-xs-12 a_content'>
+						<div id='a_title'>
+							Онлайн академиясының артықшылықтары:
+						</div>
+					</div>
+					<div class='col-md-4 col-sm-6 col-xs-12 a_content'>
+						<div class='a_subtitle'>
+							<center>
+								<img src="static/test/img/advantages/comfortable.png">
+							</center>
+							<p>
+								<span class='a_key'>Ыңғайлы</span> -
+								озіңе ыңғайлы жерде, ыңғайлы уақытта оқи аласың;
+							</p>
+						</div>
+					</div>
+					<div class='col-md-4 col-sm-6 col-xs-12 a_content'>
+						<div class='a_subtitle'>
+							<center>
+								<img src="static/test/img/advantages/profitable.png">
+							</center>
+							<p>
+								<span class='a_key'>Тиімді</span> -
+								айына бар жоғы 5000 тг; Бір айда 90 сабаққа дейын көру мүмкіндігің бар;
+							</p>
+						</div>
+					</div>
+					<div class='col-md-4 col-sm-6 col-xs-12 a_content'>
+						<div class='a_subtitle'>
+							<center>
+								<img src="static/test/img/advantages/graph.png">
+							</center>
+							<p>
+								<span class='a_key'>Мықты методика</span> -
+								оқу әдістемесі сапалы білім алып, тез арада жоғары көрсеткіштерге жету үшін арнайы жасалған;
+							</p>
+						</div>
+					</div>
+					<div class='col-md-4 col-sm-6 col-xs-12 a_content'>
+						<div class='a_subtitle'>
+							<center>
+								<img src="static/test/img/advantages/interest.png">
+							</center>
+							<p>
+								<span class='a_key'>Қызықты оқу процесі</span> -
+								оқу барысы қызық болу үшін геймификация, сыйлықтар, мотивациялық бөлімдер енгізілген;
+							</p>
+						</div>
+					</div>
+					<div class='col-md-4 col-sm-6 col-xs-12 a_content'>
+						<div class='a_subtitle'>
+							<center>
+								<img src="static/test/img/advantages/individual.png">
+							</center>
+							<p>
+								<span class='a_key'>Индивидуалдылық</span> -
+								әр оқушы өзіне ыңғайлы жылдамдықпен және өзіне керек тақырыптарды ғана оқи алады;
+							</p>
+						</div>
+					</div>
+					<div class='col-md-4 col-sm-6 col-xs-12 a_content'>
+						<div class='a_subtitle'>
+							<center>
+								<img src="static/test/img/advantages/economy.png">
+							</center>
+							<p>
+								<span class='a_key'>Үнемділік</span> -
+								жақсы методика, жақсы мұғалім, керек информация іздеп көп уақыт пен үлкен энергия жоғалтпайсың. Барлығы Академияда бар;
+							</p>
+						</div>
+					</div>
+					<div class='col-md-4 col-sm-6 col-xs-12 a_content'>
+						<div class='a_subtitle'>
+							<center>
+								<img src="static/test/img/advantages/private.png">
+							</center>
+							<p>
+								<span class='a_key'>Жабық группа</span> -
+								тек онлайн аладемиясының оқушыларына арналған вебинаррлар мен мастер-кластарға қатыса аласыз;
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id='gallery'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-12 col-sm-12 col-xs-12'>
+						<p id='g_title'>Біздің оқушылар</p>
+					</div>
+				</div>
+				<div id='all-gallery-img'>
+				</div>
+			</div>
+		</div>
+
+		<div id='feedback'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-12 col-sm-12 col-xs-12'>
+						<center>
+							<p id='f_title'>Біз жайлы пікірлер</p>
+						</center>
+					</div>
+					<div class='col-md-12 col-sm-12 col-xs-12'>
+						<div class="autoplay">
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/alua.e.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Елубаева Алуа
+									</p>
+								</center>
+								<p class='f_text'>
+									Хочу поблагодарить учебный центр «Алтын бiлiм»! Я пришла в этот центр, в ноябре 2017 года, когда оставалось всего пол года до ЕНТ. Я была в восторге от первого урока, после чего начала ходить на занятия не только с надобностью, но и с большим желанием и удовольствием! Занятия проходили в группе, но результат был равен индивидуальному уроку. Учителя очень требовательные, но в то же время очень добры. После урока я выходила выучив и вызубрив как минимум две темы по математике , а так же с большой мотивацией учить её дальше, что помогло мне отлично подготовиться до экзамена и ЕНТ. Всем советую этот учебный центр
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/daulet.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Айдарханов Даулет
+									</p>
+								</center>
+								<p class='f_text'>
+									Алтын Білім - керемет оқу орталығы!! Мен бірінші рет достарымның айтуы бойынша 10 сыныпта келгенмін,өте қатты ұнады. Мұғалімдері-өте керемет,мейірімді адамдар!!! Оқыту системасы да өте жақсы. Жеңілдіктері де болды. Тез арада өте көп нәрсе үйрендім. Алмат ағайға, Айша апайға, Ерсұлтан ағайға алғысым шексіз!!! Егер нағыз білім алғың келсе -АЛТЫН БІЛІМГЕ КЕЛ!!! Жақсы білім алып шықтым. Сол білімімнің арқасында ҰБТ ДАН 132 бал алдым. Енді өзім қалаған жоғарғы оқу орнына қалаған мамандығыма түсе аламын. Алмат ағай - өте керемет, мейірімді, сабырлы,білімді адам.Сізге шын жүректен РАХМЕТ!!! Балалар сендерге нағыз білім көзі- Altyn Bilim. РЕКОМЕНДУЮ!!
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/bota.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Бота Бекей
+									</p>
+								</center>
+								<p class='f_text'>
+									"Алтын бiлiм" сіздерге алғысым шексіз,маған берген білімдерініз әлі күнге дейін көмектеседі,себебі оқу барысында сабақ өте түсінікті болады және оңай есте сақталады,физика мен математика пәнінің маңызын сіздердің арқаларыңызда ғана түсіндім🤗Сапалы білімдеріңіз үшін алғысым шексіз😊
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/aneliya.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Лепсибаева Анеля
+									</p>
+								</center>
+								<p class='f_text'>
+									Алтын білім оқу орталығына айтар алғысым шексіз 💞 Оқу орталығында тек кана берілген сабақты ғана емес ,сенің проблеманды түсініп қолдау көрсететін ұстаздары бар Алтын білімде оз білімімді арттырып , тестте сенімім артып оз күшіммен жоғары нәтиже алдым) Мен үшін бірінші орындағы оқу орталығы❤
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/kamshat.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Маликова Камшат
+									</p>
+								</center>
+								<p class='f_text'>
+									Канша жерге барсам да «Алтын билим» сиякты оку орталыгын кормедим😻 Ен сапалы жане таза билим тек осы жерде гана деп ойлаймын) Узтаздар окушы канша коп болса да, аркайсысын индивидуально окытуга тырысады, сабак берип кана коймай, адамды жигерлендиреди, алга умтылдырады. Физика мен математиканы «Алтын Билимнин» аркасында, бизге сабак берген Алмат агайдын аркасында жаксы корип, окып кеттим. Сиздерге коооп рахмет😽♥
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/laura.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Жанабаева Лаура
+									</p>
+								</center>
+								<p class='f_text'>
+									Центр по подготовке к ЕНТ «Altyn Bilim» является очень хорошим, с отличными учителями, и главное, с хорошей базой обучения. Каждый ученик в группе обучается индивидуально, что повышает эффективность обучения) Он может развиваться несмотря на остальных, ведь каждому уделяется особое внимание. Видеоуроки, которые предоставляются содержат полную информацию по заданной теме. Главное, можно подтянуть именно те темы, в которых у вас пробелы) Советую этот центр, поскольку вы не только приобретёте знания в области математики, физики, математической грамотности (в этом году появилась и химия), но и обзаведётесь новыми друзьями)
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/armanai.png" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Кулбаева Арманай
+									</p>
+								</center>
+								<p class='f_text'>
+									Алтын билим,это для меня и моих друзей был очень подходящий курс, учителя тут отпадные,уроки проходят отлично,без сомнения любому человеку который хотел бы получить в будущем хорошие баллы и знание посоветовала бы "АЛТЫН БИЛИМ" ❤❤❤❤
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/nurzhan.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Абдикапаров Нұржан
+									</p>
+								</center>
+								<p class='f_text'>
+									"Altyn Bilim" Білім сапасы мол және ең керемет орталық! Мен Алтын білімде оқығаныма қуаныштымын. Орталық мұғалімдеріне алғысым шексіз. Алтын білімнің арқасында менің физика мен математикаға деген ынтам артты. Алтын білім арқасында біз сәтті ҰБТ-ны тапсырып. Жоғарғы оқу орындарының грант иегерлері болдық. Алтын білімге үлкен раxмет!!!
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/madiar.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Кипчакпаев Мадияр
+									</p>
+								</center>
+								<p class='f_text'>
+									Алтын Білім керемет кошымша,
+									сендер келсендер өкін бейсындер. Мұғалімдер білімді және тәжірибелі Алтын білім ұстаздарына айтар алғысым шексіз, сіздердің арқаларыңызда өзім қиналған физика пәнін де түсіндім.
+									Оқу орталығында тек кана берілген сабақты ғана емес ,сенің проблеманды түсініп қолдау көрсететін ұстаздар бар.
+									Алтын Білім келіңіздер!📚
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/tolkyn.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Шынарбекова Толқын
+									</p>
+								</center>
+								<p class='f_text'>
+									" Алтын білім" мен үшін ең үздік оқыту орталығы, себебі мұнда сабақтар өте жоғарғы дәрежеде өткізіледі.🤓 Оқыту барысында сіздің белгілі бір нәтижеге жетуіңізге барлық мүмкін жағдайлар жасалады. Сабақ қызықты, әрі барынша түсінікті болуы үшін қосымша видео және тағы да басқа материалдар қолданылады. Тағы да бір назар аударарлық дүние, бұл орталақта тек барып қайтып жүре беру мүмкінін емес, ☝🏻яғни қатал тәртіп бар, ал сәйкесінше тәртіппен білім үйлессе үлкен белестерге жету кепілдігі бар деген сөз. Сол себептен мен 100% сенімділікпен сіздерге осы орталықты таңдауға кеңес беремін !☺👍
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/aibar.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Шынарбеков Айбар
+									</p>
+								</center>
+								<p class='f_text'>
+									Алтын Билим оте керемет жер! Алтын билимге катысып ЕНТ дан аз алган адамды али корген, естиген емеспин! Бул жерде ар балага жеке подход болгандыктан, Алтын Билимге катысып журип сабакты тусинбеу мумкин емес ! Мугалимдердин окушылармен карым катынасы оте жаксы.1 группада 7 адамнан аспайды. Кун сайын жаксы мотивация. Айта беретин болса бундай кушти жерлери оте коп. Сондыктан уздик результатка жеткиси келетиндер Алтын Билимге бару керек деп санаймын !
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/dias.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Акишев Диас
+									</p>
+								</center>
+								<p class='f_text'>
+									Altin Bilim өз методикасымен ерекшеленеді. Себебі, группада 7 адам болса да, олар бір біріне кедергі жасамайды. Себебі әр оқушы индивидуальды турде оқиды, видео сабақпен.
+									Altyn Bilim орталығы өте жоғары деңгейде дамыған оқу орталықтардың бірі.
+									Осы орталықта оқысаң, ҰБТға дайндалсаң, жоғары результаттарға жетесің. Мен оған 99.9% сенімдімін.
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/erkezhan.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Қожахмет Еркежан
+									</p>
+								</center>
+								<p class='f_text'>
+									Алтым білім оқу орталығына үлкен алғысымды білдіргім келеді. Орталықтың білікті ұстаздарының арқасында ҰБТ дан жоғары балл алып, грант иегері атандым. Бұл орталықта әр балаға жеке көңіл бөлініп, білім деңгейін көтереді. Сапалы білім алғыңыз келсе, Алтын Білім орталығына келіңіздер, еш өкінбейсіздер! 📚📚📚
+								</p>
+							</div>
+							<div class='f_content'>
+								<center>
+									<img src="static/test/img/reviews/magzhan.jpg" class='img-circle'>
+								</center>
+								<center>
+									<p class='f_author'>
+										Джаксылыков Мағжан
+									</p>
+								</center>
+								<p class='f_text'>
+									Ал меніңде «Алтын білім» оқу орталығына алғыс айтар уақытым келген секілді. Осындағы әрбір ұстазға айтар алғысым шексіз. Басқа ҰБТ-ға дайындайтын оқу орталықтарынан басты айырмашылықтары - ол жеке әр оқушымен индивидуалды түрде жұмыс жасауы, топта 7 оқушыдан артық болмауы, оқушылардың бір-бірінен тәуелсіз оқытылуы. Егер сіз физика, математика, математикалық сауаттылық және де химия пәндерінен өз деңгейіңізді көтергіңіз келсе, «Алтын білім» оқу орталығына келіңіздер!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div id='need'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-12 col-sm-12 col-xs-12'>
+						<p id='title'>Егер сен:</p>
+					</div>
+					<div class='col-md-12 col-sm-12 col-xs-12'>
+						<table class='table n_content'>
+							<tr>
+								<td class='n_icon'><img src="static/test/img/rocket/rocket2.png"></td>
+								<td class='n_text'>Сапалы білімге қол жеткізгің келсе</td>
+							</tr>
+							<tr>
+								<td class='n_icon'><img src="static/test/img/rocket/rocket2.png"></td>
+								<td class='n_text'>Тез арада жоғары көрсеткіштерге жеткің келсе</td>
+							</tr>
+							<tr>
+								<td class='n_icon'><img src="static/test/img/rocket/rocket2.png"></td>
+								<td class='n_text'>Ақша жағынан тиімді оқуды іздесең</td>
+							</tr>
+							<tr>
+								<td class='n_icon'><img src="static/test/img/rocket/rocket2.png"></td>
+								<td class='n_text'>Тұрғылықты жеріңде жақсы оқу орталығы болмаса</td>
+							</tr>
+							<tr>
+								<td class='n_icon'><img src="static/test/img/rocket/rocket2.png"></td>
+								<td class='n_text'>Жоғары көрсеткіштерге ұмтылған жастардың арасында болғың келсе</td>
+							</tr>
+						</table>
+					</div>
+					<div class='col-md-12 col-sm-12 col-xs-12'>
+						<center>
+							<p id='n_else'>Бізге қосыл!</p>
+							<img id='n_arrow' src="static/test/img/arrow/arrow2.png">
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id='join'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1'>
+						<center>
+							<div id='j_content'>
+								<button id='j_btn' data-toggle="modal" data-target="#sign_up_form">Онлайн академияға қатысу</button>
+								<p id='j_txt'>*Алғашқы 3 сабақты тегін өту</p>
+							</div>	
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id='footer'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-6 col-sm-6 col-xs-12'>
+						<div class='f_contact'>
+							<p class='fc_title'>Байланыс</p>
+							<a href='#' class='fc_href'>Көмек орталығы</a>
+						</div>
+					</div>
+					<div class='col-md-6 col-sm-6 col-xs-12'>
+						<div class='f_courses'>
+							<p class='fc_title'>Курстар</p>
+							<a href='#' class='fc_href'>Математика ҰБТ</a>
+							<a href='#' class='fc_href'>Физика ҰБТ</a>
+							<a href='#' class='fc_href'>Математикалық сауаттылық ҰБТ</a>
+							<a href='#' class='fc_href'>Геометрия ҰБТ</a>
+						</div>
+					</div>
+					<div class='col-md-12 col-sm-12 col-xs-12'>
+						<div id='f_footer'>
+							<span id='ff_since'>© 2019 Altyn Bilim Online Academy</span>
+							<p id='ff_social' class='pull-right'>
+								<span>
+									<a href='https://www.instagram.com/altyn_bilim/' target="_blank">
+										<img src="static/test/img/social_network/ints32.png">
+									</a>
+								</span>
+								<span>
+									<a href='https://vk.com/public100717929' target="_blank">
+										<img src="static/test/img/social_network/vk32.png">
+									</a>
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id='whatsapp'>
+			<a target="_blank" href="">
+				<img src="static/test/img/social_network/whatsapp.png">
+			</a>
+		</div>
+
+		<div id='pop_ups'>
+			
+			<div class="modal fade works" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+				<div class="modal-dialog" role="document">
+			    	<div class="modal-header" style='border-bottom:none;'>
+			    		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style='font-size:30px; opacity:1;'>
+			    			<span aria-hidden="true">&times;</span>
+			    		</button>
+			    	</div>
+			    	<div class="modal-body">
+			    		<div class='row'>
+			    			<div class='col-md-12 col-sm-12 col-xs-12'>
+								<img class='img-responsive' src=''>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.modal-dialog -->
+				<button type='button' class='mfp-arraw mfp-arraw-left'><center><img src="static/test/img/arrow/left.png" class='img-responsive'></center></button>
+				<button type=button class='mfp-arraw mfp-arraw-right'><center><img src="static/test/img/arrow/right.png" class='img-responsive'></center></button>
+			</div><!-- /.modal -->
+				
+			<div class="modal fade" id="sign_up_form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+				<div class="modal-dialog modal-sm" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<center>
+								<h4 class="modal-title">Онлайн Академияға қосылу үшін анкетаны толтырыңыз</h4>	
+							</center>
+						</div>
+						<div class="modal-body">
+							<form>
+								<div class='form-group'>
+									<label for='student-name' class='control-label' required>Есіміңіз: </label>
+									<input type="text" name="student-name" id='student-name' class='form-control' placeholder="Есіміңіз">
+								</div>
+								<div class='form-group'>
+									<label for='student-class' class='control-label'>Қай сыныпты оқисыз: </label>
+									<select name='student-class' id='student-class' class='form-control' required>
+										<option>Таңдаңыз</option>
+										<option value='8'>8</option>
+										<option value='9'>9</option>
+										<option value='10'>10</option>
+										<option value='11'>11</option>
+										<option value='college'>Колледж</option>
+									</select>
+								</div>
+								<div class='form-group'>
+									<label for='student-email' class='control-label'>Электрондық поштаңыз: </label>
+									<input type="email" name="student-email" id='student-email' class='form-control' required placeholder="E-mail">
+								</div>
+								<div class='form-group'>
+									<label for='student-phone' class='control-label'>Телефон номеріңіз: </label>
+									<div class='input-group'>
+										<div class="input-group-addon">+7</div>
+										<input type="number" name="student-phone" min='7000000000' max='7999999999' step='1' id='student-phone' class='form-control' require placeholder="7*********">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Жою</button> -->
+							<button type="button" class="btn btn-primary">Жіберу</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="static/jquery/jquery.js"></script>
+	<script type="text/javascript" src="static/bootstrap/js/less-1.7.0.min.js"></script>
+	<script type="text/javascript" src="static/bootstrap/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="static/slick/slick.min.js"></script>
+
+	<script type="text/javascript" src="static/js/landing.js"></script>
+</body>
+</html>

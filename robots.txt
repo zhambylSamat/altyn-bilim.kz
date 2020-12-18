@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /ab_admin/
+Disallow: /video/
+Disallow: /video/video_lesson/
+Disallow: /local/

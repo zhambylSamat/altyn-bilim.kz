@@ -1,0 +1,374 @@
+@max375: ~"(max-width: 375px)";
+@max768: ~"(max-width: 768px)";
+@max421: ~"(max-width: 421px)";
+
+.lessons-box {
+	border: 1px solid lightgray;
+	padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-bottom: 1.5%;
+
+	&:hover {
+		border: 1px solid gray;
+	}
+	a {
+		color: white;
+		background-color: #38B6FF;
+		font-weight: bold;
+		padding: 1% 3% !important;
+		border-radius: 5px;
+		border: 1px solid black;
+		display: inline-block;
+	}
+	a, p, span{
+		padding: 0;
+		margin: 0;
+		font-size: 16px;
+	}
+}
+
+#student-balance-box {
+	font-size: 17px;
+	#title {}
+	#group-days {
+		color: #337AB7;
+	}
+	#payment-message {
+		color: #666;
+	}
+}
+
+
+
+
+.material-box {
+	height: 100% !important;
+	margin: 0;
+	// box-shadow: 0px 0px 5px #E0DDDD;
+	border-radius: 5px;
+	padding: 0 5px;
+}
+.material-body {
+	box-shadow: 0px 0px 20px #D5D3D3;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.unbox-material-body {
+	box-shadow: 0px 0px 20px #D5D3D3;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	margin-bottom: 1%;
+	.material-box {
+		display: none;
+	}
+}
+
+.topic-title {
+	color: green;
+	text-decoration: underline;
+	font-size: 16px;
+	@media @max768 {
+		font-size: 15px !important;
+	}
+}
+.subtitle {
+	font-weight: bold;
+	margin-top: 1.5%;
+	@media @max768 {
+		margin-top: 6%;
+	}
+}
+
+
+#vimeo-video {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+
+	#video-close-btn {
+		position: absolute;
+		top: 5%;
+		left: 85%;
+		opacity: 1;
+	}
+	#close-btn {
+		color: white;
+		text-align: right;
+	}
+
+	iframe {
+		background-color: rgba(0,0,0,0.9);
+		margin-top: 10vh;
+		border:none;
+		width: 80vw;
+		height: 80vh;
+	}
+}
+
+
+.game-box {
+	padding: 1% 2%;
+    border-radius: 10px;
+    border: 1px solid #4FA5BF;
+    background-color: rgba(91,192,222, 0.2);
+    margin-top: 2%;
+    width: 50%;
+}
+.beautiful-btn {
+	border: none;
+	font-family: 'Lato';
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.beautiful-btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.beautiful-btn:before {
+	font-family: 'FontAwesome';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* Icon separator */
+.btn-sep {
+	padding: 25px 40px 25px 100px;
+}
+
+.btn-sep:before {
+	background: rgba(0,0,0,0.15);
+}
+
+/* Button 2 */
+.btn-play {
+	border-radius: 10px;
+	background: #3498db;
+	color: #fff;
+}
+
+.btn-play:hover {
+	border-radius: 10px;
+	background: #2980b9;
+}
+
+.btn-play:active {
+	border-radius: 10px;
+	background: #2980b9;
+	top: 2px;
+}
+
+.btn-play:before {
+	border-radius: 10px;
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3.5;
+	font-size: 140%;
+	width: 60px;
+}
+
+/* Icons */
+
+.icon-cart:before {
+	/*content: "\f04b";*/
+	/*content: "\f144";*/
+	content: "\f11b";
+}
+
+.game-text {
+	font-size: 16px;
+	font-family: 'FontAwesome';
+	font-weight: bold;
+}
+
+
+#total-coins {
+	#total-coins-title {
+		font-size: 16px;
+		font-weight: bold;
+		color: gray;
+	}
+
+	#total-coins-coin {
+		font-size: 16px;
+		font-weight: bold;
+		color: green;
+	}
+
+	#total-coins-img {
+		img {
+			width: 40px;
+		}
+	}
+}
+
+.submit-class-work-btn {
+	display: block;
+	margin-top: 1%;
+}
+
+@media @max375 {
+	.question-answer-btn {
+		font-size: 14px !important;
+	}
+
+	.go-to-time-box {
+		padding:0;
+	}
+
+	.go-to-time {
+		font-size: 10px;
+
+	}
+
+	.submit-class-work-btn {
+		font-size: 12px !important;
+	}
+}
+
+#collected-coin-box {
+	text-align: center;
+	font-size: 15px;
+	border: 1px solid green;
+	background-color: rgba(0, 255, 0, 0.3);
+	padding: 1% 3%;
+	border-radius: 10px;
+	margin: 0 3% 1% 3%;
+	#collected-coin-success {
+		font-weight: bold;
+	}
+	#collected-coin-coins {
+		font-weight: bold;
+		color: green;
+	}
+	.collected-coin-btn {
+		margin-top: 1%;
+	}
+
+	@media @max768 {
+		padding: 2% 3%;
+		.collected-coin-btn {
+			margin-top: 4%;
+		}
+	}
+
+	@media @max421 {
+		padding: 5% 3%;
+	}
+}
+
+#mandatory_trial_test_content {
+	border: 1px solid #5bc0de;
+	background-color: #B3DBED;
+	border-radius: 5px;
+	margin: 0.5% 1%;
+	padding: 1% 2%;
+}
+
+#registartion-info {
+	margin-top: 2%;
+	text-align: center;
+	width: 50%;
+	#registartion-info-title {
+		font-size: 18px;
+		color: #991818;
+	}
+
+	@media @max768 {
+		width: 90% !important;
+	}
+}
+
+#lesson-schedule-title {
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+#full-lesson-prices-box {
+	// border: 1px solid lightgray;
+	margin: 1% 0;
+	padding: 1% 1%;
+	background-color: #F78CC2;
+	color: white;
+	cursor: pointer;
+	#title {
+		padding: 0;
+		margin: 0;
+		font-weight: bold;
+		font-size: 19px;
+		#link {
+			font-size: 14px;
+			color: white;
+			text-decoration: underline;
+			transition: 0.1s;
+		}
+		#link:hover {
+			color: #337AB7;
+			font-size: 16px;
+			transition: 0.1s;
+		}
+	}
+
+	#full-lesson-price-subtitle  {
+		transition: 0.1s;
+	}
+	#full-lesson-price-subtitle:hover {
+		font-size: 21px;
+		transition: 0.1s;
+	}
+
+	@media @max768 {
+		margin: 7% 0 !important;
+		padding-top: 3%;
+		#title {
+			font-size: 16px;
+			font-style: italic;
+			#link {
+				display: block;
+				padding-top: 2%;
+				padding-bottom: 2%;
+				font-style: initial;
+			}
+		}
+	}
+}

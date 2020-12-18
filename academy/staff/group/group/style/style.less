@@ -1,0 +1,86 @@
+.student-class-work-figure {
+	width: 100px;
+	height: 100px;
+	margin: 2px;
+	border: 1px solid gray;
+	border-radius: 2px;
+	overflow: hidden;
+	.student-class-work-img {
+		width: 100px;
+		height: auto;
+		padding: 5px;
+	}
+}
+
+#add-student-to-group {
+	display: none;
+}
+
+
+#open-add-student-to-group {
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid darkgray;
+	border-radius: 10px;
+	padding: 20px 0 20px 0;
+	margin: 5px 0 5px 0;
+	transition: 0.3s;
+	font-weight: bold;
+	color: green;
+}
+
+#open-add-student-to-group:hover {
+	border-color: black;
+	box-shadow: 0px 0px 10px gray;
+	transition: 0.3s;
+}
+
+#is-time-to-trial-test-notification-box {
+	border: 1px solid red;
+	background-color: #D1403F;
+	border-radius: 10px;
+	padding: 1%;
+	width: 100%;
+
+	#title {
+		margin: 0;
+		color: white;
+	}
+}
+
+#not-full-student-submit-trial-test-notification-box {
+	border: 1px solid green;
+	background-color: #5cb85c;
+	border-radius: 10px;
+	padding: 1%;
+	width: 100%;
+
+	#title {
+		margin: 0;
+		color: white;
+	}	
+}
+
+.set-trial-test-box {
+	border: 1px solid lightgray;
+	margin: 1% 0 2% 0;
+	border-radius: 5px;
+	padding: 1% 0 1% 0;
+
+	#title {
+		font-size: 20px;
+	}
+}
+
+.pulse-red {
+	animation: pulse-red-animation 2s infinite;
+}
+
+@keyframes pulse-red-animation {
+	0% {
+		box-shadow: 0 0 0 0px rgba(255,48,48, 1);
+	}
+	100% {
+		box-shadow: 0 0 0 15px rgba(255,48,48, 0);
+	}
+}

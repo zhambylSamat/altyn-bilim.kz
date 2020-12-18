@@ -1,0 +1,11 @@
+RewriteEngine on
+Order allow,deny
+Deny from all
+RewriteRule ^(.*)\.mp4$ $1.asdf [L]
+<FilesMatch ".(htaccess|htpasswd|ini|phps|fla|psd|log|sh|mp4|txt)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+
+#ForceType application/x-httpd-php
+#ForceType application/x-httpd-html

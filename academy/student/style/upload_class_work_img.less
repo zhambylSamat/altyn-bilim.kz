@@ -1,0 +1,61 @@
+.upload-img-box {
+	.upload-img-label {
+		border: 2px dashed #22B8CF;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		width: 150px;
+		height: 150px;
+		border-radius: 10px;
+		color: #22B8CF;
+		font-size: 22px;
+		cursor: pointer;
+	}
+	.upload-img-input {
+		display: none;
+	}
+}
+
+.uploaded-imgs {
+	display: inline-block;
+	padding-bottom: 10px;
+	.class-work-solve-box {
+		display: inline-block;
+		width: 170px;
+		.class-work-solve-img {
+			cursor: pointer;
+			display: inline-block;
+			border: 1px solid lightgray;
+			padding: 3px;
+			height: 150px;
+			overflow: hidden;
+			img {
+				width: 150px;
+				height: auto;
+			}
+		}
+		.class-work-solve-img-controls {
+			.remove {
+				cursor: pointer;
+				position: relative;
+				color: red;
+				left: 136px;
+				top: -55px;
+				background-color: lightgray;
+				padding: 8px;
+			}
+			.expand {
+				cursor: pointer;
+				position: relative;
+				color: #339AF0;
+				left: -22px;
+				top: -55px;
+				background-color: lightgray;
+				padding: 8px;
+			}
+		}
+		.uploaded-text {
+			color: green;
+		}
+	}
+}
